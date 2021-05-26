@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch GatewayApplication",
+            "request": "launch",
+            "mainClass": "com.example.gateway.GatewayApplication",
+            "projectName": "cloud-gateway-service"
+        },
+        {
+            "type": "java",
+            "name": "Launch End1Application",
+            "request": "launch",
+            "mainClass": "com.example.javakkapp.End1Application",
+            "projectName": "end1"
+        },
+        {
+            "type": "java",
+            "name": "Launch End2Application",
+            "request": "launch",
+            "mainClass": "com.example.javakkapp.End2Application",
+            "projectName": "end2"
+        },
+        {
+            "type": "java",
+            "name": "Launch EurekaApplication",
+            "request": "launch",
+            "mainClass": "com.example.eurekaserver.EurekaApplication",
+            "projectName": "eureka-server"
+        }
+    ]
+}
