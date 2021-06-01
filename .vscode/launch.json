@@ -37,6 +37,13 @@
             "request": "launch",
             "mainClass": "com.example.eurekaserver.EurekaApplication",
             "projectName": "eureka-server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HystrixDashboardApplication<hystrix-dashboard>",
+            "request": "launch",
+            "mainClass": "com.example.hystrixdashboard.HystrixDashboardApplication",
+            "projectName": "hystrix-dashboard"
         }
     ]
 }
